@@ -2,13 +2,16 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(func("7_This_is_a_test", "_hs_s_a_es"));
+		System.out.println("the broken keys are:" +func("7_This_is_a_test", "_hs_s_a_es"));
 	}
 
-	/*
-	 * 7_This_is_a_test _hs_s_a_es
+	/* characters typed:
+	 * 7_This_is_a_test
+	 * ---------------
+	 * characters on screen:
+	 * _hs_s_a_es
 	 */
-
+	
 	static public String func(String input, String output) {
 		String missingPart = "";
 		String inputUpcase = input.toUpperCase();
